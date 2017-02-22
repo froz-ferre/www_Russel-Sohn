@@ -1,0 +1,107 @@
+@charset "utf-8"
+
+* {
+	margin: 0; 
+	padding: 0;
+	outline: none;
+	border: 0;
+}
+
+html {
+	height: 100%;
+	max-width: 99%;
+}
+
+body {
+	color: #333;
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+	line-height: 135%;
+}
+
+header {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+header {
+	padding-top: 15px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	/*transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;*/
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.credo {
+	display: inline-block;
+	color: #7b7b7b;
+}
+
+#nav {
+	padding: 0;
+	height: 30%;
+}
+
+#logo {
+	margin: 30px;
+}
+
+#menu {
+	margin-top: 30px;	
+}
+
+#menu a {
+	border: 0;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+#menu a:hover {
+	/*display: inline;
+	background-color: #d5d5d5;
+	padding-right: 20px;
+	font-size: 1.2em;
+	border: 0;*/
+	border-bottom: 1px solid black;
+
+}
+
+#header_picture img{
+	position: relative;
+	padding: 0;
+	padding-top: 20px;
+	display: inline;
+	width: 100%;
+	height: 70%;
+}
+
+/*
+#header_picture_btn {
+	position: relative;
+}
+
+#header_picture_btn img{
+	height: 12%;
+	width: 18%;
+	position: relative;
+	margin-left: 41%;
+}
+*/
